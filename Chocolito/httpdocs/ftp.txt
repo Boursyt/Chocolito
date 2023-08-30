@@ -1,13 +1,1 @@
-[
-	{
-		"name": "s4-gp87",
-		"host": "kevinpecro.info",
-		"port": 21,
-		"type": "ftp",
-		"username": "s4-gp87",
-		"password": "21wqP7Kxv&xn$Kuw",
-		"path": "/httpdocs",
-		"autosave": true,
-		"confirm": false
-	}
-]
+
