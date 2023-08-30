@@ -1,0 +1,13 @@
+#permet de dire à apache attention prend en compte ces modifications
+RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule api/([a-z-]+)/$ index.php?urlAPI=$1
+#deslettres-/deslettres-/
+    #réécrit par rapport à une condition
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([a-z-]+)/([a-zA-Z0-9-]+)/$ index.php?url=$1&identifiant=$2
+
+#permet de faire passer le fichier par l'index.php pour les traitements, dès que l'utilisateur arrive il sera redirigé par l'index
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.+)$ index.php?url=$1

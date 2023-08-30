@@ -1,0 +1,509 @@
+body{
+    background-color: #e3e4e8 !important;
+}
+.Page_Produit {
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+    justify-content: center;
+    margin-top: 50px;
+}
+.py-3{
+    background-color: rgb(30,32,41) ;
+    
+}
+.nav-pills:active{
+    background-color: rgba(192, 154, 107, 0);
+}
+.nav-link{
+    color: #fff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: rgb(192, 154, 107);
+}
+
+.btn-outline-secondary {
+    color: rgb(192, 154, 107);
+    border-color: rgb(192, 154, 107);
+    font-weight: bold;
+}
+.btn-outline-secondary:hover {
+    color: #fff ;
+    background-color: rgb(192, 154, 107);
+    border-color: #ffffff;
+    font-weight: bold;
+
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-muted{
+    color: #fff !important;
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgb(192, 154, 107);
+}
+.header{
+    background-color: rgb(30,32,41) ;
+    color: #fff;
+
+
+}
+
+.my-4 {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    bottom:0;  
+    width:100%;
+    height:100px; 
+}
+.card{
+
+    text-align: center;
+    padding-top: 2px;
+}
+.logo{
+    display: flex;
+    max-width: 4rem;
+    max-height: 4rem;
+    padding-top: 6px;
+    padding-left: 10px;
+    position: absolute;
+}
+.imageProduit{
+    display: inline-block;
+    max-width: 650px !important;
+    height: auto !important;
+    text-shadow: #000;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.info_produit {
+    background-color: rgb(30,32,41) ;
+    color: #fff;
+    border-radius: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-bottom: 25px;
+    margin-right: 3rem;
+
+
+}
+
+.nomProduit{
+    padding-top: 10px;
+    padding-right: 1rem;
+    
+}
+.prixProduit{
+    object-position: right;
+}
+
+.descriptionProduit{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 15px;
+    margin-bottom: 2rem;
+    text-align: justify;
+    display: inline-block;
+
+    height: auto !important;}
+.boutonAjouterPanier{
+    padding-bottom: 15px;
+}
+.bouton{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(192, 154, 107);
+
+}
+
+
+.input[type="number"] {
+    margin: 0.4rem 0;
+}
+
+
+.acceuil{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/12/Awesome-Chocolate-Wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.BlockAcceuille{
+    margin-bottom: 10rem;
+}
+.textebienvenue{
+    text-align: center;
+    padding-top: 10rem;
+    color: #fff;
+
+}
+
+
+.voirProduit{
+    text-align:center;
+}
+
+.sousTitre{
+    text-size-adjust: 70%;
+
+}
+
+.boutonAcceuil{
+    text-align: center;
+    margin-top: 10px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(192, 154, 107);
+    font-weight: bold;
+
+}
+.boutonAcceuil:hover{
+    text-align: center;
+    margin-top: 10px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(30,32,41);
+    border-radius: 10px;
+    background-color: rgb(192, 154, 107);
+    font-weight: bold;
+}
+.Page_Post{
+    border-radius: 30px;
+    background-color: rgb(30,32,41) ;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    
+
+}
+.titrePost{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.contenuPost{
+    display: flex;
+    color: #fff;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    
+}
+.datePost{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.UnProduitDansPanier{
+    color: #fff;
+    border-radius: 20px;
+    background-color: rgb(30,32,41) ;
+    padding-inline-start: 2rem;
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    min-width: 10rem;
+    font-size: 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.grid-item{
+
+    display: inline-grid;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.suppProdPan{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.prixProdPan{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.imageProdPan{
+    max-width: 150px !important;
+    max-height: 150px !important;
+
+
+}
+
+
+
+.acheter{
+
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 15rem;
+    margin-top: 5rem;
+
+
+}
+
+.text-muted{
+    color: rgb(30,32,41) !important;
+    font-weight: bold !important;
+}
+.copyRight{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.ajouterPanier{
+    display: flex;
+    justify-content: right;
+    margin-right: 15rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.PageCommande{
+    display: inline-block;
+
+    margin: 1rem;
+
+
+    
+}
+
+.AdresseFacturation{
+    display: inline-block;
+    justify-content: right;
+    background-color: rgb(30,32,41);
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 100%;
+    
+}
+.AdresseLivraison{
+    display: inline-block;
+    justify-content: right;
+    background-color: rgb(30,32,41);
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-width: 100%;
+}
+
+.paiement{
+    display: flex;
+    justify-content: right;
+    margin-right: 5rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.TexteAdresse{
+    color: rgb(192, 154, 107);
+    font-weight: bold;
+}
+
+.identiteFacturation{
+    justify-content: center;
+}
+
+.identiteLivraison{
+    text-align: center;
+}
+
+.adresseFacturation{
+    justify-content: center;
+}
+.adresseLivraison{
+    text-align: center;
+}
+.contactFacturation{
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.contactLivraison{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.AdrrZip{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 11rem;
+}
+.ville{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.Identification{
+    
+    display: inline-block;
+    justify-content: right;
+    background-color: rgb(30,32,41);
+    border-radius: 30px;
+    margin-right: 15rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.TexteIdentification{
+    color: rgb(192, 154, 107);
+    font-weight: bold;
+}
+.Identite{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+    
+}
+.nom{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.prenom{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+
+.footer{
+    background-color: rgb(30,32,41);
+    color: #fff;
+    display: flex;
+    bottom:0;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footerInfo{
+    display: flex !important;
+    justify-content: center !important;
+    text-decoration: none!important;
+    list-style: none!important;
+    color: #fff !important;
+    font-weight: bold;
+    text-align: center !important;
+
+}
+.footerInfo:hover{
+    display: flex !important;
+    justify-content: center !important;
+    text-decoration: none!important;
+    list-style: none!important;
+    color: rgb(192, 154, 107)!important;
+    font-weight: bold;
+    text-align: center !important;
+
+}
+.logoFooter{
+    display: flex !important;
+    max-width: 15rem;
+    padding-left: 3rem;
+}
+.groupeFooter{
+    padding-top: 2rem;
+}
+.cgu{
+    display: inline-block !important;
+    justify-content: center !important;
+    color: #fff !important;   
+    text-align: left !important;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    background-color: rgb(30,32,41); ;
+    border-radius: 30px;
+}
+
+
+.titreCGU{
+    color: rgb(192, 154, 107);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.texteCGU{
+
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.bg-light{
+    background-color: #e3e4e8 !important;
+}
